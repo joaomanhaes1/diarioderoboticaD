@@ -1,0 +1,129 @@
+body {
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 100px;
+}
+
+
+header {
+    border-bottom: solid 2px rgb(238, 164, 47);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(238, 164, 47);
+}
+
+.video-principal {
+    border: 5px solid #5b9e30;
+    border-radius: 16px;
+}
+
+.destaquee{
+    font-size: 35px;
+    color: rgb(0, 119, 255);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* espaço entre logo e texto */
+}
+
+.logo {
+    height: 90px; /* ajuste o tamanho conforme necessário */
+    width: auto;
+}
+
+.nome-site {
+    margin: 0;
+    font-size: 30px;
+    color: #333;
+    font-family: "DynaPuff", sans-serif;
+}
+
+.chamada {
+    background-image: url('fotofinale.png');
+    background-position: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "DynaPuff", sans-serif;
+    color: beige;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    border-radius: 16px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+    border-radius: 16px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid #5b9e30;
+    border-radius: 16px;
+}
+
+.categoria2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-imagens img {
+    height: 200px;
+    border-radius: 16px;
+}
+
+.categoria h2 {
+    color: rgb(238, 164, 47);
+    font-size: 25px;
+}
+
+.categoria2 h2 {
+    color: rgb(238, 164, 47);
+    font-size: 25px;
+}
+
+.textos {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    font-size: 21px;
+}
+
+.textos h2 {
+    color: rgb(0, 106, 184);
+    font-size: 28px;
+}
+
+.problemas h3 {
+    display: flex;
+    margin: auto;
+}
