@@ -6,6 +6,18 @@ body {
     margin-bottom: 100px;
 }
 
+.destaque-badge {
+  display: inline-block;
+  background: var(--laranja);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 6px 18px;
+  border-radius: 999px;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+}
 
 header {
     border-bottom: solid 2px rgb(238, 164, 47);
