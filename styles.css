@@ -6,19 +6,6 @@ body {
     margin-bottom: 100px;
 }
 
-.destaque-badge {
-  display: inline-block;
-  background: var(--laranja);
-  color: #fff;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  padding: 6px 18px;
-  border-radius: 999px;
-  margin-bottom: 18px;
-  text-transform: uppercase;
-}
-
 header {
     border-bottom: solid 2px rgb(238, 164, 47);
     padding: 20px;
@@ -54,8 +41,32 @@ header {
     font-family: "DynaPuff", sans-serif;
 }
 
+
+/* Seções dos projetos */
+.grid-projetos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+.card h3 {
+  font-family: "DynaPuff", sans-serif;
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: var(--texto);
+}
+
+.card {
+  background: #fff;
+  border-radius: var(--radius);
+  padding: 28px;
+  box-shadow: var(--sombra);
+  border-top: 5px solid transparent;
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+}
+/*==============================================================================*/
 .chamada {
-    background: black;
+    background: black; /* cor do fundo do destaque */
     background-position: center;
     padding-bottom: 80px;
     padding-top: 80px;
