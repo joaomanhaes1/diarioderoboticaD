@@ -77,7 +77,7 @@ header {
 .imagem-diagrama {
   display: flex;
   justify-content: center;  /* centraliza na horizontal */
-  width: 50%;
+  width: 95%;
   height: auto;
 }
 
