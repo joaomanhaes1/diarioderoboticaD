@@ -58,7 +58,7 @@ header {
 
 .card h3 {
   font-family: "DynaPuff", sans-serif;
-  font-size: 18px;
+  font-size: 5px;
   margin-bottom: 12px;
   color: var(--texto);
 }
