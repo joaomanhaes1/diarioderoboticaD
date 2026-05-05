@@ -14,10 +14,10 @@ body {
 }
 
 header {
-    border-bottom: solid 2px rgb(238, 164, 47);
+    border-bottom: solid 2px rgb(0, 4, 255);
     padding: 20px;
     font-size: 32px;
-    color: rgb(238, 164, 47);
+    color: rgb(0, 4, 255);
 }
 
 .video-principal {
@@ -93,12 +93,6 @@ header {
 .meu-texto {
     text-align: center;
 }
-
-
-
-
-
-
 
 /* =========================================================================== */
 
@@ -246,8 +240,4 @@ p {
 /* linhas alternadas pra ficar mais fácil de ler */
 .tabela-robotica tbody tr:nth-child(even) {
   background-color: #f7f7f5;
-}
-
-.tabela-robotica tbody tr:hover {
-  background-color: #fff4dc;  /* destaca a linha ao passar o mouse */
 }
