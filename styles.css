@@ -71,6 +71,7 @@ header {
   border-top: 5px solid transparent;
   transition: transform 0.2s, box-shadow 0.2s;
   position: relative;
+  font-size: 14px;
 }
 /*==============================================================================*/
 /* código imagem do diagrama dos tipos de máquinas */
@@ -79,9 +80,10 @@ header {
   justify-content: center;  /* centraliza na horizontal */
   width: 95%;
   height: auto;
-  text-align: center;
 }
-
+.texto-especial {
+    text-align: center;
+}
 
 
 
