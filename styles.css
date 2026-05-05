@@ -28,12 +28,16 @@ header {
   display: flex;
   justify-content: center; /* horizontal */
   align-items: center;
+    width: 200px;
+  height: 200px;
 }
 
 .foto-semaforo {
   display: flex;
   justify-content: center; /* horizontal */
   align-items: center;
+    width: 200px;
+  height: 200px;
 }
 
 .logo-container {
