@@ -25,19 +25,13 @@ header {
 /* código pra ajeitar as imagens do info dos projetos */
 
 .fotodaia {
-  display: grid;
-  place-items: center;
-  align-items: center;
-    width: 80%;
+  width: 80%;
   height: 50%;
 }
 
 .foto-semaforo {
-  display: grid;
-  place-items: center;
-  align-items: center;
-    width: 50%;
-  height: 80%;
+  width: 50%;
+  height: 85%;
 }
 
 .logo-container {
@@ -91,7 +85,8 @@ header {
   transition: transform 0.2s, box-shadow 0.2s;
   position: relative;
   font-size: 8px;
-  image-orientation: center;
+  display: grid;
+  place-items: center;
 }
 /*==============================================================================*/
 /* código imagem do diagrama dos tipos de máquinas */
