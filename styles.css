@@ -94,7 +94,7 @@ header {
 /* =========================================================================== */
 
 .chamada {
-    background: black; /* cor do fundo do destaque */
+    background-image: "fotoo.png"; /* cor do fundo do destaque */
     background-position: center;
     padding-bottom: 80px;
     padding-top: 80px;
