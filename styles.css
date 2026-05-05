@@ -213,3 +213,32 @@ p {
   background: #3a9e2b;
   right: 80px; top: 80px;
 }
+
+
+.minha-tabela {
+  width: 100%;
+  border-collapse: collapse; /* remove espaço duplo entre bordas */
+  font-family: "Poppins", sans-serif;
+}
+
+.minha-tabela th {
+  background-color: #ee9c1a;  /* fundo laranja no cabeçalho */
+  color: white;
+  padding: 12px 16px;
+  text-align: center;
+}
+
+.minha-tabela td {
+  padding: 10px 16px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/* linhas alternadas pra ficar mais fácil de ler */
+.minha-tabela tbody tr:nth-child(even) {
+  background-color: #f7f7f5;
+}
+
+.minha-tabela tbody tr:hover {
+  background-color: #fff4dc;  /* destaca a linha ao passar o mouse */
+}
