@@ -6,6 +6,7 @@ body {
     margin-bottom: 100px;
 }
 
+/* definição de variáveis */
 :root {
   --radius: 16px;
   --sombra: 0 4px 24px rgba(0,0,0,0.08);
@@ -13,6 +14,7 @@ body {
   --coruniversal: rgb(0, 119, 255);
 }
 
+/* top bar ali de cima */
 header {
     border-bottom: solid 2px rgb(0, 4, 255);
     padding: 20px;
@@ -20,14 +22,18 @@ header {
     color: rgb(0, 4, 255);
 }
 
-.video-principal {
-    border: 5px solid #5b9e30;
-    border-radius: 16px;
+/* código pra ajeitar as imagens do info dos projetos */
+
+.fotodaia {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;
 }
 
-.destaquee{
-    font-size: 35px;
-    color: rgb(0, 119, 255);
+.foto-semaforo {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;
 }
 
 .logo-container {
@@ -95,20 +101,6 @@ header {
 }
 
 /* =========================================================================== */
-
-/* .chamada {
-    background-image: url('fotoo.png'); /* cor do fundo do destaque 
-    background-position: center;
-    padding-bottom: 80px;
-    padding-top: 80px;
-    display: flex;
-    justify-content: center;
-} */
-
-.chamada-texto {
-    margin-right: 5%;
-}
-
 h1 {
     font-size: 40px;
     font-family: "Abril Fatface", sans-serif;
@@ -138,7 +130,7 @@ p {
 }
 
 
-/* iuyiiiyiyuiy*/
+/* a pagina do destaque, o banner central */
 
 .hero {
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
@@ -217,7 +209,7 @@ p {
   right: 80px; top: 80px;
 }
 
-
+/* tabela código css */
 .tabela-robotica {
   width: 100%;
   border-collapse: collapse; /* remove espaço duplo entre bordas */
