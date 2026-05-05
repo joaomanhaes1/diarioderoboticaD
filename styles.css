@@ -25,19 +25,19 @@ header {
 /* código pra ajeitar as imagens do info dos projetos */
 
 .fotodaia {
-  display: flex;
-  justify-content: center; /* horizontal */
+  display: grid;
+  place-items: center;
   align-items: center;
-    width: 200px;
-  height: 200px;
+    width: 50%;
+  height: 50%;
 }
 
 .foto-semaforo {
-  display: flex;
-  justify-content: center; /* horizontal */
+  display: grid;
+  place-items: center;
   align-items: center;
-    width: 200px;
-  height: 200px;
+    width: 50%;
+  height: 50%;
 }
 
 .logo-container {
