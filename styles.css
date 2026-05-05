@@ -38,7 +38,7 @@ header {
     margin: 0;
     font-size: 30px;
     color: #333;
-    font-family: "Matemasie", sans-serif;
+    font-family: "Caprasimo", sans-serif;
 }
 
 
@@ -50,14 +50,14 @@ header {
 }
 
 .card h2 {
-  font-family: "Matemasie", sans-serif;
+  font-family: "Caprasimo", sans-serif;
   font-size: 25px;
   margin-bottom: 12px;
   color: var(--texto);
 }
 
 .card h3 {
-  font-family: "Matemasie", sans-serif;
+  font-family: "Caprasimo", sans-serif;
   font-size: 18px;
   margin-bottom: 12px;
   color: var(--texto);
@@ -108,7 +108,7 @@ header {
 
 h1 {
     font-size: 40px;
-    font-family: "Matemasie", sans-serif;
+    font-family: "Caprasimo", sans-serif;
     color: beige;
 }
 
@@ -168,7 +168,7 @@ p {
 }
  
 .hero h1 {
-  font-family: "Matemasie", sans-serif;
+  font-family: "Caprasimo", sans-serif;
   font-size: 48px;
   color: #fff;
   line-height: 1.2;
