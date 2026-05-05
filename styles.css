@@ -6,6 +6,13 @@ body {
     margin-bottom: 100px;
 }
 
+:root {
+  --radius: 16px;
+  --sombra: 0 4px 24px rgba(0,0,0,0.08);
+  --texto: #1a1a1a;
+  --coruniversal: rgb(0, 119, 255);
+}
+
 header {
     border-bottom: solid 2px rgb(238, 164, 47);
     padding: 20px;
@@ -47,20 +54,22 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 24px;
+  
 }
 
 .card h2 {
   font-family: "Abril Fatface", sans-serif;
   font-size: 25px;
   margin-bottom: 12px;
-  color: var(--texto);
+  color: rgb(0, 119, 255);
 }
 
 .card h3 {
   font-family: "Abril Fatface", sans-serif;
   font-size: 18px;
   margin-bottom: 12px;
-  color: var(--texto);
+  color: rgb(0, 119, 255);
+  
 }
 
 .card {
@@ -156,7 +165,7 @@ p {
  
 .destaque-badge {
   display: inline-block;
-  background: var(--laranja);
+  background: var(--coruniversal);
   color: #fff;
   font-size: 24px;
   font-weight: 700;
@@ -200,7 +209,7 @@ p {
  
 .c1 {
   width: 400px; height: 400px;
-  background: var(--laranja);
+  background: var(--coruniversal);
   right: -100px; top: -100px;
 }
 .c2 {
@@ -215,30 +224,30 @@ p {
 }
 
 
-.minha-tabela {
+.tabela-robotica {
   width: 100%;
   border-collapse: collapse; /* remove espaço duplo entre bordas */
   font-family: "Poppins", sans-serif;
 }
 
-.minha-tabela th {
+.tabela-robotica th {
   background-color: #295ac2;  /* fundo laranja no cabeçalho */
   color: white;
   padding: 12px 16px;
   text-align: center;
 }
 
-.minha-tabela td {
+.tabela-robotica td {
   padding: 10px 16px;
   text-align: center;
   border: 1px solid #ddd;
 }
 
 /* linhas alternadas pra ficar mais fácil de ler */
-.minha-tabela tbody tr:nth-child(even) {
+.tabela-robotica tbody tr:nth-child(even) {
   background-color: #f7f7f5;
 }
 
-.minha-tabela tbody tr:hover {
+.tabela-robotica tbody tr:hover {
   background-color: #fff4dc;  /* destaca a linha ao passar o mouse */
 }
