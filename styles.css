@@ -28,7 +28,7 @@ header {
   display: grid;
   place-items: center;
   align-items: center;
-    width: 50%;
+    width: 80%;
   height: 50%;
 }
 
@@ -37,7 +37,7 @@ header {
   place-items: center;
   align-items: center;
     width: 50%;
-  height: 50%;
+  height: 80%;
 }
 
 .logo-container {
@@ -91,6 +91,7 @@ header {
   transition: transform 0.2s, box-shadow 0.2s;
   position: relative;
   font-size: 8px;
+  image-orientation: center;
 }
 /*==============================================================================*/
 /* código imagem do diagrama dos tipos de máquinas */
