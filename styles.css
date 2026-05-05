@@ -79,6 +79,7 @@ header {
   justify-content: center;  /* centraliza na horizontal */
   width: 95%;
   height: auto;
+  text-align: center;
 }
 
 
