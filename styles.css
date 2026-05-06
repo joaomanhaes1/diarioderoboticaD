@@ -79,7 +79,6 @@ header {
   background: #fff;
   border-radius: var(--radius);
   padding: 28px;
-  box-shadow: var(--sombra);
   border-top: 5px solid transparent;
   transition: transform 0.2s, box-shadow 0.2s;
   position: relative;
