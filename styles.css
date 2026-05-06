@@ -37,7 +37,7 @@ header {
 .logo-container {
     display: flex;
     align-items: center;
-    gap: 0px; /* espaço entre logo e texto */
+    gap: 15px; /* espaço entre logo e texto */
 }
 
 .logo {
