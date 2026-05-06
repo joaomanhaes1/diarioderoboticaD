@@ -191,6 +191,13 @@ p {
   border: 1px solid #ddd;
 }
 
+.imagem-a {
+  height: 300px;
+  width: 300px;
+}
+
+
+
 /* linhas alternadas pra ficar mais fácil de ler */
 
 
