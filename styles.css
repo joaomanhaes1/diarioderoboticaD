@@ -89,7 +89,7 @@ header {
   place-items: center;
 }
 
-.projeto3 h3 {
+.projeto3 h4 {
   font-size: 10px;
 }
 
@@ -153,8 +153,8 @@ p {
   position: relative;
   z-index: 2;
   max-width: 600px;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
 }
  
 .hero h1 {
