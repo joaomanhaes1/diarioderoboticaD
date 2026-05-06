@@ -145,7 +145,7 @@ p {
   overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   min-height: 320px;
 }
  
@@ -153,8 +153,8 @@ p {
   position: relative;
   z-index: 2;
   max-width: 600px;
-  display: flex;
-  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
  
 .hero h1 {
