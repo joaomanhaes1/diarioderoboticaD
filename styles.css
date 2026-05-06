@@ -193,6 +193,7 @@ p {
 }
 
 /* linhas alternadas pra ficar mais fácil de ler */
-.tabela-robotica tbody tr:nth-child(even) {
-  background-color: #f7f7f5;
-}
+
+
+
+/*   --sombra: 0 4px 24px rgba(0,0,0,0.08);
