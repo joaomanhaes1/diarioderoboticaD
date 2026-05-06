@@ -9,7 +9,6 @@ body {
 /* definição de variáveis */
 :root {
   --radius: 16px;
-  --sombra: 0 4px 24px rgba(0,0,0,0.08);
   --texto: #1a1a1a;
   --coruniversal: rgb(0, 119, 255);
 }
@@ -145,7 +144,7 @@ p {
 
 /* a pagina do destaque, o banner central */
 
-.hero {
+.destaque {
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
   padding: 80px 60px;
   position: relative;
@@ -156,7 +155,7 @@ p {
   min-height: 320px;
 }
  
-.hero-content {
+.destaque-conteudo {
   position: relative;
   z-index: 2;
   max-width: 600px;
@@ -164,7 +163,7 @@ p {
   text-align: center;
 }
  
-.hero h1 {
+.destaque h1 {
   font-family: "Abril Fatface", sans-serif;
   font-size: 48px;
   color: #fff;
